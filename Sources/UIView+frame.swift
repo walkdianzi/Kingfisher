@@ -11,13 +11,13 @@ import UIKit
 
 extension UIView{
     
-    var kcenterX: CGFloat{
+    public var kcenterX: CGFloat{
         
         return self.center.x
     }
     
     
-    func setKcenterX(centerX: CGFloat){
+    public func setKcenterX(centerX: CGFloat){
         
         self.center.x = centerX
     }
